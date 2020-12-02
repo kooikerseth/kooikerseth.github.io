@@ -1,22 +1,139 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Seth Kooiker</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <script src="" async defer></script>
-    </body>
+  <head>
+      <meta charset="utf-8">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Seth Kooiker</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
+      <link rel="stylesheet" href="global.css">
+      <link rel="stylesheet" href="landing.css">
+      <link rel="author" href="humans.txt">
+  </head>
+  <body>
+    <nav>
+      <div class="logo"></div>
+      <ul class="menu">
+        <div class="menu__item toggle"><span></span></div>
+        <li class="menu__item"><a href="doc.html" class="link link--dark"><i class="fa fa-book"></i> Documentation</a></li>
+        <li class="menu__item"><a href="https://github.com/kooikerseth" class="link link--dark"><i class="fa fa-github"></i> Github</a></li>
+        <li class="menu__item"><a href="https://www.linkedin.com/in/seth-kooiker/" class="link link--dark"><i class="fa fa-linkedin"></i> Linkedin</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+        <img src="headshot.jpeg" class="headshot" alt="me">
+        <h1 class="hero__title">Seth Kooiker</h1>
+        <p class="hero__description">Put a tagline here maybe?</p>
+    </div>
+    <div class="hero__terminal">
+      <pre>
+        <!-- demo code here -->
+        <code class="shell-session demo">kooikerS ~ $ </code>
+      </pre>
+    </div>
+    <div class="wrapper">
+      <div class="installation">
+        <h3 class="section__title">About me</h3>
+        <div class="tab__container">
+          <ul class="tab__menu">
+            <li class="tab active" data-tab="me">me</li>
+            <li class="tab" data-tab="phone">phone</li>
+            <li class="tab" data-tab="email">email</li>
+            <li class="tab" data-tab="linked">linked-in</li>
+          </ul>
+          <pre class="nohighlight code">
+            <code class="tab__pane active me"> I am a computer engineering student at MSOE, 
+                The Milwaukee School of Engineering. I have worked in many 
+                roles and am passionate about computers and computing in general.</code>
+            <code class="tab__pane phone">$  715 456 7798</code>
+            <code class="tab__pane email">$  kooikerseth@gmail.com </code>
+            <code class="tab__pane linked">$  https://www.linkedin.com/in/seth-kooiker/</code>
+          </pre>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature__item">
+          <h3 class="section__title">Technical skills and Languages</h3>
+          <p>C, Python, C++, Java, ARMMv4, Bash, PCB design, Circuit Analysis, VHDL, 3D modeling </p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Personal Skills</h3>
+          <p>I can learn stuff aight. I like people.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Some other stuff</h3>
+          <p>I gotta put something here  </p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Another thing</h3>
+          <p>something else about me can go here </p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">even more</h3>
+          <p>What else? I gotta fill all of these?</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">ANOTHER??</h3>
+          <p>maybe i just make 3 of these things geez </p>
+        </div>
+      </div>
+      <div class="callout">
+        <p>Checkout all of my projects</p>
+        <a href="doc.html" class="button--primary">PROJECTS</a>
+      </div>
+    </div>
+    <div class="changelog">
+      <div class="wrapper">
+        <h3 class="section__title">Changelog</h3>
+        <div class="changelog__item">
+          <div class="changelog__meta">
+            <h4 class="changelog__title">v0.7</h4>
+            <small class="changelog__date">10/12/2017</small>
+          </div>
+          <div class="changelog__detail">
+            <ul>
+              <li>Improving the writing workflow with better key bindings</li>
+              <li>Design updates</li>
+              <li>SSL Verification for web hooks</li>
+              <li>Render Emoji</li>
+            </ul>
+          </div>
+        </div>
+        <div class="changelog__item">
+          <div class="changelog__meta">
+            <h4 class="changelog__title">v0.6</h4>
+            <small class="changelog__date">7/30/2017</small>
+          </div>
+          <div class="changelog__detail">
+            <ul>
+              <li>Adding Unicode support</li>
+              <li>Basic text highlighting</li>
+              <li>Fresh Design</li>
+            </ul>
+          </div>
+        </div>
+        <div class="changelog__item">
+          <div class="changelog__meta">
+            <h4 class="changelog__title">v0.5</h4>
+            <small class="changelog__date">5/10/2017</small>
+          </div>
+          <div class="changelog__detail">
+            <ul>
+              <li>Save default md file in new folders</li>
+              <li>Ability to quick search on existing notes</li>
+            </ul>
+          </div>
+        </div>
+        <div class="changelog__callout">
+          <a href="#" class="button--secondary">Checkout Full Log</a>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">Seth Kooiker | 715.456.7798 | <a href="mailto:kooikerseth@gmail.com" target="_blank" class="link link--light">Send email</a> | <a href="https://www.linkedin.com/in/seth-kooiker/" target="_blank" class="link link--light">linkedin</a></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="console.js"></script>
+  </body>
 </html>
