@@ -89,6 +89,40 @@ html, body {
   padding: 0 0 5rem 1rem;
 }
 
+/* changelog section */
+.changelog {
+  display: flex;
+  flex-wrap: wrap;
+
+  background-color: var(--bg-color);
+  color: var(--dark-gray-color);
+  padding: 2rem 0;
+}
+
+.changelog__item {
+  display: flex;
+}
+
+.changelog__meta {
+  flex-basis: 25%;
+}
+
+.changelog__meta small {
+  color: var(--primary-color-light);
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.changelog__title {
+  margin-bottom: 0;
+}
+
+.changelog__callout {
+  margin: 3rem auto 2rem auto;
+  text-align: center;
+}
+
+
 @media (max-width: 750px) {
   .wrapper {
     flex-direction: column;
@@ -112,4 +146,8 @@ html, body {
   .doc__nav .selected:after {
     display: none;
   }
+  .changelog__item {
+    flex-direction: column;
+  }
+
 }
