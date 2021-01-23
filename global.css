@@ -1,6 +1,6 @@
 /* css variables*/
 :root {
-  --primary-color: #CE93D8;
+  --primary-color: #d75fdb;
   --primary-color-light: #E1BEE7;
   --accent-color: #E040FB;
   --accent-color-light: #D500F9;
@@ -49,9 +49,13 @@ hr {
 /* typography */
 .section__title {
   color: var(--primary-color);
+  text-shadow: 2px 2px #00000033;
+
 }
 .section__subtitle{
   color: var(--primary-color-light);
+  text-shadow: 2px 2px #00000033;
+  padding-bottom: 0;
 }
 
 /* tabs */
@@ -302,21 +306,17 @@ table td:first-child {
   bottom: 0;
   width: 100%;
   text-align: center;
-  background-color: var(--primary-color);
-  padding: 2rem;
+  background-color: var(--white-color);
+  padding: 1rem;
   color: var(--dark-gray-color);
 }
 
-@keyframes fadeUp {
-  0% {
-    opacity: 0;
-    transform: translate3d(0,30px,0);
-  }
-  100% {
-    transform: translate3d(0,0,0);
-  }
-  .bar-chart-wrapper{
-    position:relative;margin-bottom:35px}.skillset 
-    .bar-wrapper{background-color:#414A52}.skillset 
-    .bar-wrapper .bar{height:10px;margin:10px 0;background-color:#7AE2DE}.skillset 
-    .bar-chart-figure{float:right}.skillset
+.proj_img {
+  float: right;
+  width: 30%;
+  max-width: 200px;
+  height: 30%;
+  max-height: 200px;
+  box-shadow: 3px 3px 10px 3px #00000033;
+
+}
