@@ -50,6 +50,9 @@ hr {
 .section__title {
   color: var(--primary-color);
 }
+.section__subtitle{
+  color: var(--primary-color-light);
+}
 
 /* tabs */
 .tab__container {
@@ -312,4 +315,8 @@ table td:first-child {
   100% {
     transform: translate3d(0,0,0);
   }
-}
+  .bar-chart-wrapper{
+    position:relative;margin-bottom:35px}.skillset 
+    .bar-wrapper{background-color:#414A52}.skillset 
+    .bar-wrapper .bar{height:10px;margin:10px 0;background-color:#7AE2DE}.skillset 
+    .bar-chart-figure{float:right}.skillset
